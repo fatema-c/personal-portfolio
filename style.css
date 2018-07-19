@@ -66,8 +66,10 @@ header h1 {
 .about-me {
   display: flex;
   background: radial-gradient(rgba(249, 249, 250, 0.30),rgba(249, 249, 250, 0.20)),url(./images/meireles-neto-741223-unsplash.jpg);
-  background-size: cover;
-  background-position: center center;
+  /* background-size: cover; */
+  background-position: 60% 50%;
+  background-size: 300px;
+  background-repeat: no-repeat;
   padding-top: 142px;
   padding-bottom: 142px;
 }
